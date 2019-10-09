@@ -11,7 +11,6 @@ import UIKit
 class LaunchViewController: UIViewController {
     
     private let lbl = UILabel()
-    
     private var text: String?
     
     override func viewDidLoad() {

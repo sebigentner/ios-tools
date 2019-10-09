@@ -13,6 +13,8 @@
 		E6068F9A2341EAF7003F958A /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6068F992341EAF7003F958A /* LaunchViewController.swift */; };
 		E6068F9C2341EEC0003F958A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6068F9B2341EEC0003F958A /* HomeViewController.swift */; };
 		E6068F9F2341F1EC003F958A /* TextService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6068F9E2341F1EC003F958A /* TextService.swift */; };
+		E698F715234DB543006BAC6D /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E698F714234DB543006BAC6D /* Singleton.swift */; };
+		E698F717234DB6AB006BAC6D /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = E698F716234DB6AB006BAC6D /* Closures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E6068F992341EAF7003F958A /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		E6068F9B2341EEC0003F958A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E6068F9E2341F1EC003F958A /* TextService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextService.swift; sourceTree = "<group>"; };
+		E698F714234DB543006BAC6D /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		E698F716234DB6AB006BAC6D /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 		E6068F972341EABC003F958A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				E698F714234DB543006BAC6D /* Singleton.swift */,
+				E698F716234DB6AB006BAC6D /* Closures.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -186,9 +192,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6068F9A2341EAF7003F958A /* LaunchViewController.swift in Sources */,
+				E698F715234DB543006BAC6D /* Singleton.swift in Sources */,
 				E6068F812341E9C0003F958A /* AppDelegate.swift in Sources */,
 				E6068F9F2341F1EC003F958A /* TextService.swift in Sources */,
 				E6068F9C2341EEC0003F958A /* HomeViewController.swift in Sources */,
+				E698F717234DB6AB006BAC6D /* Closures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
